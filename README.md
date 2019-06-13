@@ -1,5 +1,7 @@
 # istio-hpa
 
+[Tutorial](https://medium.com/google-cloud/kubernetes-autoscaling-with-istio-metrics-76442253a45a)
+
 One of the advantages of using a service mesh like Istio is the builtin monitoring capability. You don't have 
 to instrument your web apps in order to monitor the L7 traffic. The Istio telemetry service collects 
 stats like HTTP request rate, response status codes and duration form the Envoy sidecars 
